@@ -1,0 +1,9 @@
+{
+	"modid": "kanademod",
+	"name": "KanadeMod",
+	"author_list": ["Noko", "Kou"],
+	"description": "Adds Tachibana_Kanade as a new playable character.",
+	"dependencies": ["basemod"],
+	"version": "0.0.1"
+}
+	

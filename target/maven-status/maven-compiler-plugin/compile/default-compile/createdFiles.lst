@@ -1,0 +1,15 @@
+Kanade\relics\AngelPlayer.class
+Kanade\patches\CharacterEnum.class
+Kanade\cards\Strike_Kanade.class
+Kanade\cards\AbstractAngelPlayerCards.class
+Kanade\cards\AngelPlayer\GuardSkill.class
+Kanade\cards\AbstractKanadeCards.class
+Kanade\cards\AngelPlayer\HandSonicVer1.class
+Kanade\powers\SonicVer1Power.class
+Kanade\relics\AbstractKanadeRelic.class
+Kanade\characters\TachibanaKanade.class
+Kanade\patches\AbstractCardEnum.class
+Kanade\cards\Defend_Kanade.class
+Kanade\patches\LibraryTypeEnum.class
+Kanade\Kanade.class
+Kanade\cards\AngelPlayer\AttackSkill.class

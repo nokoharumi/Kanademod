@@ -1,0 +1,7 @@
+{
+  "SonicVer1Power":{
+    "NAME": "音速手刃Ver1",
+    "DESCRIPTION": "固定提升1点攻击伤害和1点格挡",
+    "UPGRADE_DESCRIPTION": "固定提升2点攻击伤害和2点格挡"
+  }
+}

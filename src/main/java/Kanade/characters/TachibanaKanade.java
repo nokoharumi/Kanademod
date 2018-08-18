@@ -24,7 +24,7 @@ public class TachibanaKanade extends CustomPlayer{
                 "images/character/main.png",
                 "images/character/shoulder2.png",
                 "images/character/shoulder.png",
-                "images/character/corpse/main.png",
+                "images/character/corpse.png",
                 getLoadout(), 20.0f, -10.0f, 220.0f, 290.0f, new EnergyManager(ENERGY_PER_TURN)
         );
     }

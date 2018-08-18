@@ -12,14 +12,11 @@ import com.megacrit.cardcrawl.localization.RelicStrings;
 import com.megacrit.cardcrawl.relics.AbstractRelic;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
-import java.awt.Color;
+import com.badlogic.gdx.graphics.Color;
 import java.nio.charset.StandardCharsets;
 
-import Kanade.cards.AngelPlayer.AttackSkill;
-import Kanade.cards.AngelPlayer.GuardSkill;
-import Kanade.cards.AngelPlayer.HandSonicVer1;
-import Kanade.cards.Defend_Kanade;
-import Kanade.cards.Strike_Kanade;
+import Kanade.cards.*;
+import Kanade.cards.AngelPlayer.*;
 import Kanade.characters.TachibanaKanade;
 import Kanade.patches.AbstractCardEnum;
 import Kanade.patches.CharacterEnum;
@@ -42,7 +39,7 @@ public class Kanade implements EditCardsSubscriber,EditCharactersSubscriber,Post
     private static final String AUTHOR = "Nokoharumi";
     private static final String DESCRIPTION = "2018.08.15";
 
-    private static final com.badlogic.gdx.graphics.Color ORANGE = CardHelper.getColor(255, 139, 23);
+    private static final Color ORANGE = CardHelper.getColor(255, 139, 23);
 
     public static String kanadeCardImage(final String id) {
         return "images/cards/" + id + ".png";
@@ -138,6 +135,18 @@ public class Kanade implements EditCardsSubscriber,EditCharactersSubscriber,Post
         UnlockTracker.unlockCard("GuardSkill");
         BaseMod.addCard((AbstractCard)new HandSonicVer1());
         UnlockTracker.unlockCard("HandSonicVer1");
+        BaseMod.addCard((AbstractCard)new HandSonicVer2());
+        UnlockTracker.unlockCard("HandSonicVer2");
+        BaseMod.addCard((AbstractCard)new HandSonicVer3());
+        UnlockTracker.unlockCard("HandSonicVer3");
+        BaseMod.addCard((AbstractCard)new HandSonicVer4());
+        UnlockTracker.unlockCard("HandSonicVer4");
+        BaseMod.addCard((AbstractCard)new HandSonicVer5());
+        UnlockTracker.unlockCard("HandSonicVer5");
+        BaseMod.addCard((AbstractCard)new Distortion());
+        UnlockTracker.unlockCard("Distortion");
+        BaseMod.addCard((AbstractCard)new Delay());
+        UnlockTracker.unlockCard("Delay");
         DevConsole.logger.info("=========================加载新的卡牌内容成功=========================");
     }
 

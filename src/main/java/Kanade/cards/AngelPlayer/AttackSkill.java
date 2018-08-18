@@ -20,7 +20,7 @@ public class AttackSkill extends AbstractAngelPlayerCards{
     public static final String DESCRIPTION;
 
     public AttackSkill(){
-        super(ID, NAME, COST, DESCRIPTION, CardType.SKILL, CardRarity.BASIC, CardTarget.SELF);
+        super(ID, NAME, COST, DESCRIPTION, CardType.SKILL, CardRarity.COMMON, CardTarget.SELF);
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
     }

@@ -34,12 +34,14 @@ public class TachibanaKanade extends CustomPlayer{
         retVal.add("Strike_Kanade");
         retVal.add("Strike_Kanade");
         retVal.add("Strike_Kanade");
+        retVal.add("Strike_Kanade");
         retVal.add("Defend_Kanade");
         retVal.add("Defend_Kanade");
         retVal.add("Defend_Kanade");
-        retVal.add("AttackSkill");
-        retVal.add("GuardSkill");
-        retVal.add("HandSonicVer1");
+        retVal.add("Defend_Kanade");
+//        retVal.add("AttackSkill");
+//        retVal.add("GuardSkill");
+//        retVal.add("HandSonicVer1");
         return retVal;
     }
 

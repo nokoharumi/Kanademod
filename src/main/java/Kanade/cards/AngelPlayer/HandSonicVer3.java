@@ -17,9 +17,9 @@ import Kanade.cards.AbstractAngelPlayerCards;
 import Kanade.powers.SonicVer1Power;
 
 @SpireInitializer
-public class HandSonicVer1 extends AbstractAngelPlayerCards{
+public class HandSonicVer3 extends AbstractAngelPlayerCards{
 
-    public static final String ID = "HandSonicVer1";
+    public static final String ID = "HandSonicVer3";
     private static final CardStrings cardStrings;
     public static final String NAME;
     public static final String DESCRIPTION;
@@ -27,8 +27,8 @@ public class HandSonicVer1 extends AbstractAngelPlayerCards{
     public static final int COST = 2;
     /**public static final String IMG = "";**/
 
-    public HandSonicVer1() {
-        super(ID, HandSonicVer1.NAME, COST, HandSonicVer1.DESCRIPTION, CardType.SKILL, CardRarity.RARE, CardTarget.ENEMY);
+    public HandSonicVer3() {
+        super(ID, HandSonicVer3.NAME, COST, HandSonicVer3.DESCRIPTION, CardType.ATTACK, CardRarity.COMMON, CardTarget.ENEMY);
         this.baseMagicNumber = 2;
         this.magicNumber = this.baseMagicNumber;
 //        this.baseDamage = 2;
@@ -48,7 +48,7 @@ public class HandSonicVer1 extends AbstractAngelPlayerCards{
 
     @Override
     public AbstractCard makeCopy() {
-        return new HandSonicVer1();
+        return new HandSonicVer3();
     }
 
     @Override
@@ -60,9 +60,9 @@ public class HandSonicVer1 extends AbstractAngelPlayerCards{
     }
 
     static {
-        cardStrings = CardCrawlGame.languagePack.getCardStrings("HandSonicVer1");
-        NAME = HandSonicVer1.cardStrings.NAME;
-        DESCRIPTION = HandSonicVer1.cardStrings.DESCRIPTION;
-//        UPGRADE_DESCRIPTION = HandSonicVer1.cardStrings.UPGRADE_DESCRIPTION;
+        cardStrings = CardCrawlGame.languagePack.getCardStrings("HandSonicVer3");
+        NAME = HandSonicVer3.cardStrings.NAME;
+        DESCRIPTION = HandSonicVer3.cardStrings.DESCRIPTION;
+//        UPGRADE_DESCRIPTION = HandSonicVer3.cardStrings.UPGRADE_DESCRIPTION;
     }
 }

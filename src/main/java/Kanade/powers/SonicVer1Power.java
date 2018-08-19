@@ -26,18 +26,18 @@ public class SonicVer1Power extends AbstractPower{
     public static String DESCRIPTION = "造成伤害和得到格挡";
 //    public AbstractPlayer player;
     public AbstractCreature target;
-    public int damage;
-    public int block;
+//    public int damage;
+//    public int block;
 
-    public SonicVer1Power(final AbstractCreature owner, final AbstractCreature target, final int amount, final int damage, final int block){
+    public SonicVer1Power(final AbstractCreature owner, final AbstractCreature target, final int amount){
 //        this.player = AbstractDungeon.player;
         this.name = HandSonicVer1.NAME;
         this.ID = "SonicVer1Power";
         this.owner = owner;
         this.target = target;
         this.amount = amount;
-        this.damage = damage;
-        this.block = block;
+//        this.damage = damage;
+//        this.block = block;
         this.updateDescription();
         this.img = ImageMaster.loadImage("images/power/" + POWER_ID + ".png");
         this.type = AbstractPower.PowerType.BUFF;
@@ -61,14 +61,14 @@ public class SonicVer1Power extends AbstractPower{
 //    }
 
     public void atEndOfRound(){
-        AbstractDungeon.actionManager.addToBottom(new DamageAction(target, new DamageInfo(this.owner, this.damage, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
-        AbstractDungeon.actionManager.addToBottom(new GainBlockAction(this.owner, this.owner, this.block));
-        this.flash();
-        if (this.amount == 1){
-            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, "SonicVer1Power"));
-        }else {
-            --this.amount;
-        }
+        AbstractDungeon.actionManager.addToBottom(new DamageAction(target, new DamageInfo(this.owner, this.amount, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
+        AbstractDungeon.actionManager.addToBottom(new GainBlockAction(this.owner, this.owner, this.amount));
+//        this.flash();
+//        if (this.amount == 1){
+//            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, "SonicVer1Power"));
+//        }else {
+//            --this.amount;
+//        }
     }
 
 //    @Override

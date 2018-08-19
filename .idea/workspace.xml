@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fde8ba37-ce97-4128-9ff7-0b44b86697c4" name="Default" comment="" />
+    <list default="true" id="fde8ba37-ce97-4128-9ff7-0b44b86697c4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/Delay.java" afterPath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/Delay.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/Distortion.java" afterPath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/Distortion.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer1.java" afterPath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer1.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer2.java" afterPath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer2.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer3.java" afterPath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer3.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer4.java" afterPath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer4.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer5.java" afterPath="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer5.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kanade/characters/TachibanaKanade.java" afterPath="$PROJECT_DIR$/src/main/java/Kanade/characters/TachibanaKanade.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Kanade/powers/SonicVer1Power.java" afterPath="$PROJECT_DIR$/src/main/java/Kanade/powers/SonicVer1Power.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/localization/Cards.json" afterPath="$PROJECT_DIR$/src/main/resources/localization/Cards.json" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,14 +28,14 @@
       <file leaf-file-name="ModBaseCard_ByChengze.java" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Documents/Tencent Files/1184860342/FileRecv/如何开发Mod/人物mod必备五大模本，看完你也可以写mod/ModBaseCard_ByChengze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1596">
+            <state relative-caret-position="-494">
               <caret line="110" column="111" lean-forward="false" selection-start-line="110" selection-start-column="111" selection-end-line="110" selection-end-column="111" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModBasePower_ByChengze.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ModBasePower_ByChengze.java" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Documents/Tencent Files/1184860342/FileRecv/如何开发Mod/人物mod必备五大模本，看完你也可以写mod/ModBasePower_ByChengze.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
@@ -32,28 +45,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HandSonicVer1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer1.java">
+      <file leaf-file-name="TachibanaKanade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/characters/TachibanaKanade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="30" column="85" lean-forward="false" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1913#1914#0" expanded="true" />
-                <element signature="e#1955#1956#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SonicVer1Power.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/powers/SonicVer1Power.java">
+      <file leaf-file-name="Distortion.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/Distortion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1026">
-              <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="285">
+              <caret line="59" column="139" lean-forward="false" selection-start-line="59" selection-start-column="139" selection-end-line="59" selection-end-column="139" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,8 +68,8 @@
       <file leaf-file-name="Cards.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/localization/Cards.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+            <state relative-caret-position="190">
+              <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -118,20 +125,27 @@
         <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/Strike_Kanade.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/Defend_Kanade.java" />
         <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/GuardSkill.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Kanade/characters/TachibanaKanade.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ModTheSpire.config" />
         <option value="$PROJECT_DIR$/src/main/java/Kanade/relics/AngelPlayer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Kanade/powers/SonicVer1Power.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/localization/Cards.json" />
         <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Kanade/powers/SonicVer1Power.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer2.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/localization/Cards.json" />
+        <option value="$PROJECT_DIR$/src/main/java/Kanade/powers/SonicVer2Power.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Kanade/characters/TachibanaKanade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/Delay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/Distortion.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-6" />
-    <option name="y" value="49" />
+    <option name="x" value="-7" />
+    <option name="y" value="45" />
     <option name="width" value="1291" />
-    <option name="height" value="850" />
+    <option name="height" value="589" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -153,38 +167,38 @@
         <subPane>
           <expand>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Kanade" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -192,8 +206,8 @@
               <item name="cards" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -202,8 +216,8 @@
               <item name="AngelPlayer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -211,8 +225,8 @@
               <item name="characters" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -220,8 +234,8 @@
               <item name="patches" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -229,37 +243,22 @@
               <item name="powers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
+              <item name="Kanademod" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Kanademod" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Kanade" type="462c0819:PsiDirectoryNode" />
               <item name="relics" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Kanade" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Kanade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="localization" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,7 +266,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="E:/Kanademod" />
+    <property name="last_opened_file_path" value="F:/Kanade" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -386,7 +385,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="49" width="1291" height="850" extended-state="0" />
+    <frame x="-7" y="45" width="1291" height="589" extended-state="0" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -399,6 +398,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16360734" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -409,7 +409,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -421,47 +420,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/HandSonicVer1.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/Kanade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/Kanade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/Kanade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade.java" />
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/1184860342/FileRecv/如何开发Mod/寻星者Mod源代码/FruityMod-StS-master/src/main/java/fruitymod/FruityMod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="59" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/src/lib/BaseMod.jar!/basemod/interfaces/EditCardsSubscriber.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -545,7 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +518,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,9 +525,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="100" lean-forward="false" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -579,9 +532,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="49" lean-forward="false" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -589,7 +539,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="28" column="31" lean-forward="true" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -597,15 +546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="141">
           <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/GuardSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="43" column="153" lean-forward="false" selection-start-line="43" selection-start-column="153" selection-end-line="43" selection-end-column="153" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -614,14 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="33" column="82" lean-forward="false" selection-start-line="33" selection-start-column="82" selection-end-line="33" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/characters/TachibanaKanade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="46" column="65" lean-forward="true" selection-start-line="46" selection-start-column="65" selection-end-line="46" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -646,14 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/AttackSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="41" column="151" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="151" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ModTheSpire.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -672,61 +596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/Kanade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1805">
-          <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/relics/AngelPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Documents/Tencent Files/1184860342/FileRecv/如何开发Mod/人物mod必备五大模本，看完你也可以写mod/ModBaseCard_ByChengze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1596">
-          <caret line="110" column="111" lean-forward="false" selection-start-line="110" selection-start-column="111" selection-end-line="110" selection-end-column="111" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/localization/Cards.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="30" column="85" lean-forward="false" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1913#1914#0" expanded="true" />
-            <element signature="e#1955#1956#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/powers/SonicVer1Power.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="71" column="5" lean-forward="false" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -734,6 +603,146 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="90" column="28" lean-forward="false" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/Tencent Files/1184860342/FileRecv/如何开发Mod/人物mod必备五大模本，看完你也可以写mod/ModBaseCard_ByChengze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="110" column="111" lean-forward="false" selection-start-line="110" selection-start-column="111" selection-end-line="110" selection-end-column="111" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/Kanade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1406">
+          <caret line="41" column="54" lean-forward="true" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/localization/Cards.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="25" column="45" lean-forward="false" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/powers/SonicVer1Power.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="64" selection-end-column="108" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="59" column="97" lean-forward="false" selection-start-line="59" selection-start-column="97" selection-end-line="59" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="58" column="139" lean-forward="false" selection-start-line="58" selection-start-column="139" selection-end-line="58" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/AttackSkill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="41" column="151" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="151" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/relics/AngelPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#594#595#0" expanded="false" />
+            <element signature="e#657#658#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/powers/SonicVer2Power.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/HandSonicVer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="61" column="12" lean-forward="false" selection-start-line="61" selection-start-column="12" selection-end-line="61" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1909#1910#0" expanded="false" />
+            <element signature="e#1951#1952#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/Delay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="59" column="139" lean-forward="false" selection-start-line="59" selection-start-column="139" selection-end-line="59" selection-end-column="139" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/characters/TachibanaKanade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="43" column="36" lean-forward="false" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/GuardSkill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="43" column="153" lean-forward="false" selection-start-line="43" selection-start-column="153" selection-end-line="43" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Kanade/cards/AngelPlayer/Distortion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="59" column="139" lean-forward="false" selection-start-line="59" selection-start-column="139" selection-end-line="59" selection-end-column="139" />
           <folding />
         </state>
       </provider>

@@ -58,7 +58,7 @@ public class HandSonicVer2 extends AbstractAngelPlayerCards{
         AbstractDungeon.actionManager.addToBottom(new DamageAction(monster, new DamageInfo(player, this.magicNumber, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
         AbstractDungeon.actionManager.addToBottom(new GainBlockAction(player, player, this.magicNumber));
         AbstractDungeon.actionManager.addToBottom(new HealAction(player, player, this.magicNumber));
-        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player, new SonicVer2Power(player, monster, this.magicNumber), this.magicNumber));
+        AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(player, player, new SonicVer2Power(player, monster, this.magicNumber, this.magicNumber)));
     }
 
     static {

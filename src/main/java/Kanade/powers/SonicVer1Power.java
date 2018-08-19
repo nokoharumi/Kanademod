@@ -17,29 +17,25 @@ import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
-import Kanade.cards.AngelPlayer.HandSonicVer1;
-
-public class SonicVer1Power extends AbstractPower{
+public class SonicVer1Power extends AbstractSonicPower{
     public static final String POWER_ID = "SonicVer1Power";
 //    private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = "音速手刃Ver1";
     public static String DESCRIPTION = "造成伤害和得到格挡";
 //    public AbstractPlayer player;
-    public AbstractCreature target;
-//    public int damage;
-//    public int block;
+    public static int damage;
+    public static int block;
 
-    public SonicVer1Power(final AbstractCreature owner, final AbstractCreature target, final int amount){
+    public SonicVer1Power(final AbstractCreature owner, final AbstractCreature target, final int damage, final int block){
 //        this.player = AbstractDungeon.player;
-        this.name = HandSonicVer1.NAME;
-        this.ID = "SonicVer1Power";
-        this.owner = owner;
-        this.target = target;
-        this.amount = amount;
-//        this.damage = damage;
-//        this.block = block;
+        super(owner, target);
+        this.name = SonicVer1Power.NAME;
+        this.ID = SonicVer1Power.POWER_ID;
+//        this.amount = amount;
+        this.damage = damage;
+        this.block = block;
         this.updateDescription();
-        this.img = ImageMaster.loadImage("images/power/" + POWER_ID + ".png");
+        this.img = ImageMaster.loadImage("images/power/" + SonicVer1Power.POWER_ID + ".png");
         this.type = AbstractPower.PowerType.BUFF;
     }
 
@@ -61,9 +57,9 @@ public class SonicVer1Power extends AbstractPower{
 //    }
 
     public void atEndOfRound(){
-        AbstractDungeon.actionManager.addToBottom(new DamageAction(target, new DamageInfo(this.owner, this.amount, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
-        AbstractDungeon.actionManager.addToBottom(new GainBlockAction(this.owner, this.owner, this.amount));
-//        this.flash();
+        AbstractDungeon.actionManager.addToBottom(new DamageAction(target, new DamageInfo(this.owner, this.damage, DamageInfo.DamageType.THORNS), AbstractGameAction.AttackEffect.BLUNT_LIGHT));
+        AbstractDungeon.actionManager.addToBottom(new GainBlockAction(this.owner, this.owner, this.block));
+        this.flash();
 //        if (this.amount == 1){
 //            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(this.owner, this.owner, "SonicVer1Power"));
 //        }else {
@@ -87,13 +83,9 @@ public class SonicVer1Power extends AbstractPower{
 //        }
 //    }
 
-//    public void updateDescription(){
-//        if (this.amount == 1){
-//            this.description = HandSonicVer1.DESCRIPTION;
-//        }else {
-//            this.description = HandSonicVer1.UPGRADE_DESCRIPTION;
-//        }
-//    }
+    public void updateDescription(){
+        this.description = SonicVer1Power.DESCRIPTION;
+    }
 
 //    static {
 //        powerStrings = CardCrawlGame.languagePack.getPowerStrings("SonicVer1Power");
